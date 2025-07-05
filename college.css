@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+h1{
+    color: red;
+}
+img {
+    width: 92%;
+    height: 170px;
+    text-align: center;
+}
+navbar ul {
+    list-style: none;
+    display: flex;
+    /* position: sticky; */
+    /* top: 0; */
+    background-color: rgb(212, 209, 209);
+    padding: 0 25px; 
+}
+navbar ul li{
+    position: relative;
+}
+navbar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: #0c0f2e;
+    padding: 10px 20px;
+}
+navbar ul li a:hover {
+    background-color: rgb(177, 176, 176);
+    color: rgb(123, 0, 0);
+}
+navbar ul li ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+    left: 0;
+    top:100%;
+    background-color: rgb(177, 176, 176);
+}
+navbar ul li ul li{
+    /* padding: 5px 20px; */
+    width: 100%;
+    border-top: 1px solid white;
+}
+navbar ul li ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+navbar ul li:focus-within > ul,
+navbar ul li:hover > ul{
+            display: initial;
+        }
+
+.col {
+    float: left;
+    width: 30.33%;
+    padding: 15px;
+}
+.col img,h1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.col img:hover{
+    transform: scale(1.3);
+    transition: 1s ease;
+}
+.col p{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.section{
+    clear: both;
+}
+.section p{
+    background: url(visionmission_collage.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px rgb(154, 12, 12);
+    padding: 60px;
+}
+.marq h1{
+    color: red;
+}
+.marq p{
+    color: rgb(1, 17, 88);
+    font-size: 25px;
+}
+.academics i{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: red;
+}
+.academics p{
+    font-size: 15px;
+}
+.academics h1{
+    text-align: center;
+}
+.academics h1::after{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin-left: 46%;
+    content: '';
+}
+.message .container{
+    margin: 40px auto;
+}
+footer{
+    background-color: rgb(21, 1, 109);
+    color: white;
+    /* height: 20rem; */
+}
+footer .social-icons{
+    margin-left:40px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.social-icons i{
+    margin: 8px;
+}
+.social-icons p{
+    float: right;
+    font-size: 18px;
+}
+.academics{
+    margin-bottom: 20px;
+}
+
+
